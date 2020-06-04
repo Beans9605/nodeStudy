@@ -20,6 +20,9 @@ mongoose.connect(config.mongoURI, {
 
 app.get('/', (req, res)=> res.send(`Hello World! ㅎㅇㅎㅇ 안녕하세요 여러분 공부하는거 전부 잘 해결하시길 바라겠습니다.`));
 
+
+
+
 app.post('/register', (req, res)=>{
     // 회원 가입 할때 필요한 정보들을 client에서 가져오면
     // 그것들을 데이터 베이스에 넣어준다.
